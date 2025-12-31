@@ -24,22 +24,25 @@ header img {
   width: 45px;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-weight: 600;
   color: var(--color-heading);
   margin-bottom: 0.5rem;
   margin-block: 0;
-} 
+}
 
 a {
   text-decoration: none;
   padding: 3px;
-      color: hsla(160, 100%, 37%, 1);
+  color: hsla(160, 100%, 37%, 1);
 
 }
 
 .green {
-    color: hsla(160, 100%, 37%, 1);
+  color: hsla(160, 100%, 37%, 1);
 }
 
 .top-1 {
