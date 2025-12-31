@@ -262,4 +262,62 @@ const year = new Date().getFullYear()
   color: white;
   padding: 0 0.3rem;
 }
+
+/* Footer responsive styles */
+.footer {
+  margin-top: 2rem;
+  padding: 1.5rem 1rem;
+  background: transparent;
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1 1 0;
+}
+.footer-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.footer-right {
+  text-align: right;
+}
+.footer .icon {
+  width: 26px;
+  height: 26px;
+}
+
+@media (max-width: 640px) {
+  .footer-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    width: 100%;
+  }
+
+  .footer-right {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  .footer-left p,
+  .footer-right p {
+    margin: 0.2rem 0;
+  }
+}
 </style>
