@@ -1,0 +1,7 @@
+[
+  {
+    "title": "API Proxying for Enhanced Security and Visualization",
+    "description": "Developed a secure API proxy server using Node.js and Express to handle requests between frontend applications and third-party APIs. Implemented data visualization features using D3.js to present API response data in an interactive manner.",
+    "repo": ""
+  }
+]

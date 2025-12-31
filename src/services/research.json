@@ -1,0 +1,45 @@
+[
+  {
+    "role": "Doctoral Assistant Researcher",
+    "assistant_for": "Nelly Sofi",
+    "project": "Disertasi Insertion Detection System",
+    "institution": "Faculty of Information System, Gunadarma University",
+    "description": "",
+    "period": "December 2025 - present",
+    "promotor": "",
+    "link": "",
+    "responsibilities": [
+      
+    ]
+  },
+    {
+    "role": "Doctoral Assistant Researcher",
+    "assistant_for": "Nurul Adhayanti",
+    "project": "Disertasi Prasasti",
+    "institution": "Departement of Informatics, Gunadarma University",
+    "description": "",
+    "period": "October 2025 - present",
+    "promotor": "Prof. Dr. Ing. Adang Suhendra, S.Si,S.Kom,M.Sc.",
+    "link": "",
+    "responsibilities": [
+      "Support literature review and data annotation",
+      "Develop data pipelines and preprocessing scripts",
+      "Assist in evaluation and results consolidation"
+    ]
+  },
+    {
+    "role": "Doctoral Assistant Researcher",
+    "assistant_for": "Dr. Witta Listya Ningrum",
+    "project": "Pengembangan Model Klasifikasi Toksisitas Multimodal pada Platform Media Sosial Menggunakan Large Language Model (LLM) dengan Kombinasi Jenis Media Teks, Gambar atau Video",
+    "institution": "Departement of Information System, Gunadarma University",
+    "description": "",
+    "period": "May 2024 - December 2024",
+    "promotor": "Prof. Dr. rer. nat. Achmad Benny Mutiara, Q. N. SSi, S.Kom",
+    "link": "",
+    "responsibilities": [
+      "Conducting literature review on cloud computing optimization techniques",
+      "Collecting dataset from social media platforms using scraping techniques",
+      "Preprocessing and labeling multimodal data for toxicity classification"
+    ]
+  }
+]

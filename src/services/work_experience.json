@@ -1,0 +1,249 @@
+[
+    {
+        "company": "Kelola Aja",
+        "company_url": "https://kelolaaja.id",
+        "roles": "Lead Backend Developer",
+        "date": "January 2026 - Present",
+        "jobs": [
+            {
+                "title": "Responsibilities",
+                "items": [
+                    {
+                        "title": "Engineering Leadership",
+                        "points": [
+                            {
+                                "point_name": "Project Management",
+                                "points": [
+                                    "Architecting project <em>timelines</em> and roadmaps.",
+                                    "Managing agile workflows using <em>Trello</em>."
+                                ]
+                            },
+                            {
+                                "point_name": "Ensuring code quality through rigorous <em>code reviews</em>."
+                            },
+                            {
+                                "point_name": "Mentoring junior backend developers to accelerate professional growth."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Backend Development",
+                        "points": [
+                            {
+                                "point_name": "Providing hands-on expertise to solve <em>major technical challenges</em> and backend bottlenecks."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "company": "Kelola Aja",
+        "company_url": "https://kelolaaja.id",
+        "roles": "Backend Developer",
+        "date": "October 2025 - December 2025",
+        "jobs": [
+            {
+                "title": "Responsibilities",
+                "items": [
+                    {
+                        "title": "API Engineering",
+                        "points": [
+                            {
+                                "point_name": "Designing and implementing <em>RESTful APIs</em> using <em>Golang</em>.",
+                                "points": [
+                                    "Integrating server-side logic with user-facing elements in collaboration with <em>frontend</em> teams.",
+                                    "Collaborating with <em>accountants</em> to implement complex <em>accounting logic</em>."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "company": "IoTech Systems",
+        "company_url": "https://suwondosigitsolution.co.id",
+        "roles": "R&D Engineer",
+        "date": "September 2025 - October 2025",
+        "jobs": [
+            {
+                "title": "Responsibilities",
+                "items": [
+                    {
+                        "title": "IoT Research",
+                        "points": [
+                            {
+                                "point_name": "Conducting deep-dive research into the <em>Zigbee</em> protocol."
+                            },
+                            {
+                                "point_name": "Developing <em>API Gateways</em> to connect Zigbee devices with cloud infrastructure.",
+                                "points": [
+                                    "Analyzing <em>Tuya Smart Home Cloud</em> and Local Tuya APIs.",
+                                    "Researching device integration through <em>MQTT brokers</em>."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "company": "SlogMate",
+        "company_url": "https://suwondosigitsolution.co.id",
+        "roles": "IT Specialist Server",
+        "date": "August 2025 - October 2025",
+        "jobs": [
+            {
+                "title": "Responsibilities",
+                "items": [
+                    {
+                        "title": "Infrastructure & Security",
+                        "points": [
+                            {
+                                "point_name": "Architecting and maintaining server infrastructure on <em>GCP</em> for Web, Backend, and AI services.",
+                                "points": [
+                                    "Utilizing <em>Terraform</em> for Infrastructure as Code (IaC) and automated documentation.",
+                                    "Orchestrating services using <em>Docker</em> and <em>k3s</em> for efficient application deployment."
+                                ]
+                            },
+                            {
+                                "point_name": "Implementing robust security protocols to prevent unauthorized data access."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Achievements",
+                "items": [
+                    {
+                        "title": "Optimized Cost Efficiency",
+                        "points": [
+                            {
+                                "point_name": [
+                                        "Achieved <em>30% cost reduction</em> via <em>spot instances</em> and <em>k3s</em> orchestration."
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "company": "HealthTrend",
+        "company_url": "https://suwondosigitsolution.co.id",
+        "roles": "Backend Developer & IT Specialist Server",
+        "date": "May 2025 - August 2025",
+        "jobs": [
+            {
+                "title": "Responsibilities",
+                "items": [
+                    {
+                        "title": "Full-Stack Infrastructure",
+                        "points": [
+                            {
+                                "point_name": "Developing <em>RESTful APIs</em> using <em>Golang</em> and <em>Gin</em>."
+                            },
+                            {
+                                "point_name": "Managing <em>GCP</em> infrastructure using <em>Terraform</em>, <em>Docker</em>, and <em>k3s</em>."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Achievements",
+                "items": [
+                    {
+                        "points": [
+                            "Achieved <em>30% cost reduction</em> via <em>spot instances</em> and <em>k3s</em> orchestration."
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "company": "SuarAi",
+        "company_url": "https://suwondosigitsolution.co.id",
+        "roles": "Backend Developer & IT Specialist Server",
+        "date": "January 2025 - May 2025",
+        "jobs": [
+            {
+                "title": "Responsibilities",
+                "items": [
+                    {
+                        "title": "Multi-Cloud Operations",
+                        "points": [
+                            {
+                                "point_name": "Building <em>Golang</em> APIs and managing <em>AWS</em> infrastructure."
+                            },
+                            {
+                                "point_name": "Implementing <em>Terraform</em>, <em>Docker</em>, and <em>k3s</em> for scalable deployments."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "company": "Otoritas Jasa Keuangan (OJK)",
+        "company_url": "https://www.shl.com/",
+        "roles": "Load Tester (Freelance)",
+        "date": "November 2025 - December 2025",
+        "jobs": [
+            {
+                "title": "Performance Engineering",
+                "items": [
+                    {
+                        "title": "Testing & Analysis",
+                        "points": [
+                            {
+                                "point_name": "Formulating comprehensive <em>load testing</em> plans for production servers."
+                            },
+                            {
+                                "point_name": "Executing performance benchmarks using <em>Locust</em>."
+                            },
+                            {
+                                "point_name": "Analyzing metrics and providing <em>optimization recommendations</em> for server stability."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "company": "Mail Student Registration",
+        "company_url": "https://gunadarma.ac.id",
+        "roles": "Fullstack Developer",
+        "date": "November 2025 - December 2025",
+        "jobs": [
+            {
+                "title": "Responsibilities",
+                "items": [
+                    {
+                        "title": "End-to-End Development",
+                        "points": [
+                            {
+                                "point_name": "Planning application architecture and system flow."
+                            },
+                            {
+                                "point_name": "Implementing <em>Microsoft Graph API</em> tenancy for automated student email provisioning."
+                            },
+                            {
+                                "point_name": "Developing <em>REST APIs</em> and <em>Admin Dashboards</em> to monitor account creation status."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

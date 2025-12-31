@@ -1,0 +1,343 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: auto;
+  font-weight: normal;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1280px;
+  padding: 1rem;
+  gap: 1.5rem;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+header img {
+  width: 45px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: var(--color-heading);
+  margin-bottom: 0.5rem;
+  margin-block: 0;
+} 
+
+a {
+  text-decoration: none;
+  padding: 3px;
+      color: hsla(160, 100%, 37%, 1);
+
+}
+
+.green {
+    color: hsla(160, 100%, 37%, 1);
+}
+
+.top-1 {
+  margin-top: 1rem;
+}
+
+.bottom-1 {
+  margin-bottom: 1rem;
+}
+
+.divide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+.icon {
+  width: 25px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.gap-1 {
+  margin: 1rem 0;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.section-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: start;
+}
+
+.section {
+  display: flex;
+  gap: 1rem;
+}
+
+.section .section-header {
+  width: 24rem;
+  max-width: 100%;
+  flex: 0 0 24rem;
+}
+
+.section .section-detail {
+  flex: 1;
+}
+
+.publication {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pub-meta {
+  flex: 1;
+}
+
+.pub-authors,
+.pub-journal,
+.pub-details,
+.pub-publisher,
+.pub-abstract {
+  margin: 0.25rem 0;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.pub-links a {
+  color: #0b6;
+  margin-right: 0.5rem;
+  text-decoration: none;
+}
+
+.pub-abstract {
+  font-style: italic;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.pub-qr img {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-title a {
+  color: #0b6;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-desc {
+  margin: 0.5rem 0;
+  color: #444;
+}
+
+.project-links a {
+  margin-right: 0.6rem;
+  color: #0b6;
+  text-decoration: none;
+}
+
+.project-tags {
+  display: inline-block;
+  margin-left: 0.4rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.research {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.research-meta {
+  flex: 1;
+}
+
+.research-project {
+  margin: 0 0 0.25rem 0;
+}
+
+.research-role,
+.research-institution,
+.research-promotor,
+.research-desc {
+  margin: 0.25rem 0;
+  color: #444;
+}
+
+.research-responsibilities {
+  margin-top: 0.5rem;
+}
+
+.research-responsibilities ul {
+  margin: 0.25rem 0 0 1.1rem;
+  padding: 0;
+  color: #444;
+}
+
+.research-responsibilities li {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+}
+
+.research-qr img {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+.organization {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.organization .section-header {
+  flex: 1 1 30%;
+}
+
+.org-role {
+  margin: 0;
+  font-weight: 600;
+}
+
+.org-responsibilities ul {
+  margin: 0.25rem 0 0 1.1rem;
+  padding: 0;
+}
+
+.no-qr {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  font-size: 0.85rem;
+  border: 1px dashed #eee;
+  border-radius: 6px;
+}
+
+.footer {
+  border-top: 1px solid #eee;
+  padding: 1.25rem 0;
+  margin-top: 2rem;
+  background: #fafafa;
+}
+
+.footer-inner {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1 1 200px;
+}
+
+.footer-center {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.footer .icon {
+  width: 22px;
+  height: 22px;
+}
+
+.footer a {
+  color: #0b6;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  main {
+    padding: 0.75rem;
+  }
+
+  .divide {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .projects {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .section {
+    flex-direction: column;
+  }
+
+  .section .section-header {
+    flex: none;
+    width: 100%;
+    max-width: none;
+  }
+
+  .pub-qr img,
+  .research-qr img {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+@media (max-width: 640px) {
+  .publication {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+
+  .pub-qr {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+}

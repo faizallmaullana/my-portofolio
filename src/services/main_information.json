@@ -1,0 +1,12 @@
+{
+    "name": "Faizal Maulana",
+    "address": "Jakarta, Indonesia",
+    "email": "hire@paisaltanjung.my.id",
+    "linkedin": "https://www.linkedin.com/in/faizallmaullana",
+    "github": "https://github.com/faizallmaullana",
+    "roles": "Software Engineer",
+    "about_me": "Software engineer with 1+ years of experience in developing backend applications, servers, cloud infrastructure, system reliability, and APIs.",
+    "keywords": [
+        "golang", "java", "kubernetes", "docker", "microservices", "restful api", "cloud computing", "ci/cd", "prometheus", "grafana"
+    ]
+}
