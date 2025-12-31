@@ -14,7 +14,7 @@
                             {
                                 "point_name": "Project Management",
                                 "points": [
-                                    "Architecting project <em>timelines</em> and roadmaps.",
+                                    "Architecting project timelines and roadmaps.",
                                     "Managing agile workflows using <em>Trello</em>."
                                 ]
                             },
@@ -30,7 +30,7 @@
                         "title": "Backend Development",
                         "points": [
                             {
-                                "point_name": "Providing hands-on expertise to solve <em>major technical challenges</em> and backend bottlenecks."
+                                "point_name": "Providing hands-on expertise to solve major technical challenges and backend bottlenecks."
                             }
                         ]
                     }
@@ -51,10 +51,10 @@
                         "title": "API Engineering",
                         "points": [
                             {
-                                "point_name": "Designing and implementing <em>RESTful APIs</em> using <em>Golang</em>.",
+                                "point_name": "Designing and implementingRESTful APIs using <em>Golang</em>.",
                                 "points": [
-                                    "Integrating server-side logic with user-facing elements in collaboration with <em>frontend</em> teams.",
-                                    "Collaborating with <em>accountants</em> to implement complex <em>accounting logic</em>."
+                                    "Integrating server-side logic with user-facing elements in collaboration with frontend teams.",
+                                    "Collaborating with <em>accountants</em> to implement complex accounting logic."
                                 ]
                             }
                         ]
@@ -79,7 +79,7 @@
                                 "point_name": "Conducting deep-dive research into the <em>Zigbee</em> protocol."
                             },
                             {
-                                "point_name": "Developing <em>API Gateways</em> to connect Zigbee devices with cloud infrastructure.",
+                                "point_name": "Developing API Gateways to connect Zigbee devices with cloud infrastructure.",
                                 "points": [
                                     "Analyzing <em>Tuya Smart Home Cloud</em> and Local Tuya APIs.",
                                     "Researching device integration through <em>MQTT brokers</em>."
@@ -125,7 +125,7 @@
                         "points": [
                             {
                                 "point_name": [
-                                        "Achieved <em>30% cost reduction</em> via <em>spot instances</em> and <em>k3s</em> orchestration."
+                                        "Achieved <em>30% cost reduction</em> via spot instances and <em>k3s</em> orchestration."
                                 ]
                             }
                         ]
@@ -147,7 +147,7 @@
                         "title": "Full-Stack Infrastructure",
                         "points": [
                             {
-                                "point_name": "Developing <em>RESTful APIs</em> using <em>Golang</em> and <em>Gin</em>."
+                                "point_name": "Developing RESTful APIs using <em>Golang</em>."
                             },
                             {
                                 "point_name": "Managing <em>GCP</em> infrastructure using <em>Terraform</em>, <em>Docker</em>, and <em>k3s</em>."
@@ -161,7 +161,7 @@
                 "items": [
                     {
                         "points": [
-                            "Achieved <em>30% cost reduction</em> via <em>spot instances</em> and <em>k3s</em> orchestration."
+                            "Achieved <em>30% cost reduction</em> via spot instances and <em>k3s</em> orchestration."
                         ]
                     }
                 ]
@@ -211,7 +211,7 @@
                                 "point_name": "Executing performance benchmarks using <em>Locust</em>."
                             },
                             {
-                                "point_name": "Analyzing metrics and providing <em>optimization recommendations</em> for server stability."
+                                "point_name": "Analyzing metrics and providing optimization recommendations for server stability."
                             }
                         ]
                     }
@@ -238,7 +238,7 @@
                                 "point_name": "Implementing <em>Microsoft Graph API</em> tenancy for automated student email provisioning."
                             },
                             {
-                                "point_name": "Developing <em>REST APIs</em> and <em>Admin Dashboards</em> to monitor account creation status."
+                                "point_name": "Developing REST APIs and Admin Dashboards to monitor account creation status."
                             }
                         ]
                     }
