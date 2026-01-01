@@ -134,6 +134,27 @@ const year = new Date().getFullYear()
 
     <hr>
 
+        <section>
+      <h3 class="green bottom-1">Comunity</h3>
+
+      <div class="section-wrap">
+        <div v-for="(org, oIdx) in organizations" :key="oIdx" class="section">
+          <div class="section-header">
+            <h3>{{ org.organization }}</h3>
+            <p><strong>{{ org.role }}</strong></p>
+            <p>{{ org.period }}</p>
+            <a :href="org.link" target="_blank" rel="noopener noreferrer">View Comunity Page</a>
+          </div>
+
+          <div class="section-detail">
+            <p>{{ org.description }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
     <section>
       <h3 class="green bottom-1">Research</h3>
 
@@ -143,7 +164,7 @@ const year = new Date().getFullYear()
             <h3>{{ r.role }}</h3>
             <p v-if="r.assistant_for"><strong>Assistant for</strong> {{ r.assistant_for }}</p>
             <a :href="r.link" v-if="r.link">{{ r.link }}</a>
-            <span v-if="r.promotor"><strong>Promotor:</strong> {{ r.promotor }}</span>
+            <span v-if="r.promotor"><strong>Promotor</strong> {{ r.promotor }}</span>
             <p>{{ r.institution }}</p>
             <p>{{ r.period }}</p>
             <!-- <a :href="r.link" target="_blank" rel="noopener noreferrer">{{ r.link }}</a> -->
@@ -196,27 +217,6 @@ const year = new Date().getFullYear()
                 :src="`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(pub.link || ('https://doi.org/' + pub.doi))}`"
                 :alt="`QR code for ${pub.title}`" />
             </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <hr>
-
-    <section>
-      <h3 class="green bottom-1">Organization</h3>
-
-      <div class="section-wrap">
-        <div v-for="(org, oIdx) in organizations" :key="oIdx" class="section">
-          <div class="section-header">
-            <h3>{{ org.organization }}</h3>
-            <p><strong>{{ org.role }}</strong></p>
-            <a :href="org.link" target="_blank" rel="noopener noreferrer">{{ org.link }}</a>
-            <p>{{ org.period }}</p>
-          </div>
-
-          <div class="section-detail">
-            <p>{{ org.description }}</p>
           </div>
         </div>
       </div>

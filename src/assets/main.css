@@ -37,12 +37,23 @@ h4 {
 a {
   text-decoration: none;
   padding: 3px;
-  color: hsla(160, 100%, 37%, 1);
-
+  color: rgb(200, 0, 226);
 }
 
 .green {
-  color: hsla(160, 100%, 37%, 1);
+  /* Terapkan gradasi pada background */
+  background: linear-gradient(90deg, rgba(10, 32, 171, 1) 0%, rgba(190, 12, 199, 1) 100%);
+  
+  /* Potong background agar hanya muncul di dalam teks */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* Buat warna teks asli menjadi transparan agar gradasi terlihat */
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  /* Opsional: Tambahkan ini jika teks tidak muncul (khusus beberapa browser) */
+  display: inline-block;
 }
 
 .top-1 {
@@ -128,12 +139,6 @@ strong {
   font-size: 0.95rem;
 }
 
-.pub-links a {
-  color: #0b6;
-  margin-right: 0.5rem;
-  text-decoration: none;
-}
-
 .pub-abstract {
   font-style: italic;
   color: #555;
@@ -155,22 +160,11 @@ strong {
   margin-bottom: 1rem;
 }
 
-.project-title a {
-  color: #0b6;
-  text-decoration: none;
-  font-weight: 600;
-}
-
 .project-desc {
   margin: 0.5rem 0;
   color: #444;
 }
 
-.project-links a {
-  margin-right: 0.6rem;
-  color: #0b6;
-  text-decoration: none;
-}
 
 .project-tags {
   display: inline-block;
@@ -288,11 +282,6 @@ strong {
 .footer .icon {
   width: 22px;
   height: 22px;
-}
-
-.footer a {
-  color: #0b6;
-  text-decoration: none;
 }
 
 @media (max-width: 900px) {
